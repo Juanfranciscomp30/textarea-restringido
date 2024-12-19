@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Ejercicio textarea Restringido</title>
+</head>
+<body>
+    <header>
+        <h1>Textarea Restringido</h1>
+        <h2>Utilizando JavaScript</h2>
+    </header>
+    <div class="textarea">
+        <p>Escribe aqui con un maximo de 250 caracteres</p>
+        <textarea name="textarea" id="textarea" cols="40" rows="4" placeholder="Escribe aqui..." oninput="actualizarContador()" maxlength="250"></textarea>
+        <p>Caracteres restantes: <span id="restantes">250</span>/250</p>
+    </div>
+    
+</body>
+</html>

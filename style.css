@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #789048;
+    color: #f0f0d8;
+    text-align: center;
+    padding: 20px;
+}
+
+.textarea {
+    width: 50%;
+    margin: 30px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+textarea:focus {
+    border-color: #66afe9;
+    outline: none;
+}
+
+p {
+    font-size: 14px;
+    color: #777;
+    padding: 10px;
+}
+
+#restantes {
+    font-weight: bold;
+    color: #607848;
+}
+
+#restantes.red {
+    color: #604848;
+}
